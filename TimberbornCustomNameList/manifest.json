@@ -1,0 +1,11 @@
+{
+  "Name": "Custom Name Mod",
+  "Version": "1.0",
+  "Id": "CustomNameMod",
+  "MinimumGameVersion": "0.0.0.0",
+  "Description": "Copy a text file of names to be used for beavers or bots.",
+  "RequiredMods": [
+  ],
+  "OptionalMods": [
+  ]
+}

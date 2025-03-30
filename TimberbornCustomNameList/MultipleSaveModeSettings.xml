@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Settings>
+	<!--
+	WELCOME!
+	These settings are for the CustomNameList mod. If you only have 1 save OR don't mind names rotating across saves, you can safely ignore these settings.
+	However, if you want to track names uniquely per save, then you can use these settings to enable/manage names across multiple saves.
+	-->
+
+	<!--
+        Setting Name: MultipleSaveMode
+        Purpose: Use to track beaver names on a per save basis instead of a per computer basis.
+        Note 1: This mode alters your save file directly. If you want to undo it later, you'll need the below options.
+		Note 2: This mode currently doesn't work for bot names.
+        Steps:
+            1) Set MultipleSaveMode to true
+            2) Load Timberborn with the CustomNameList mod on
+        Result: Each save will track its own list of names from the baseline list that was uploaded.
+        Valid values:
+            true
+            false 
+    -->
+	<MultipleSaveMode>false</MultipleSaveMode>
+	<!--
+        Setting Name: RestoreDefaultNameList
+        Purpose: Use to reset the pool of names back to default.
+        Notes: Existing beavers will keep their current name.
+        Steps:
+            1) Set ClearModNames to true
+            2) Load Timberborn with the CustomNameList mod on
+            3) Open your save
+            4) Save your file again
+        Result: Your save will be back to using the default name list from the Timberborn team.
+        Valid values:
+            true
+            false 
+    -->
+	<RestoreDefaultNameList>false</RestoreDefaultNameList>
+	<!--
+        Setting Name: RefreshModNameList
+		Once each name has been used once, the game will naturally refresh the list with the latest list of names.
+        Purpose: You wish to see the list of custom names immediately on an existing save.
+		OR you have added a lot of new names to the list that you want to see in the pool of names.
+        Notes: Duplicate beaver names may occur temporarily since the list is completely refreshed.
+        Steps:
+            1) Set ClearModNames to true
+            2) Load Timberborn with the CustomNameList mod on
+            3) Open your save
+            4) Save your file again
+			5) Close your game
+			6) Set RefreshModNameList setting back to false
+        Result: Your save will now include the most recent list of names. Steps 5 & 6 will help reduce the number of long-term duplicates you see.
+        Valid values:
+            true
+            false 
+    -->
+	<RefreshModNameList>false</RefreshModNameList>
+</Settings>

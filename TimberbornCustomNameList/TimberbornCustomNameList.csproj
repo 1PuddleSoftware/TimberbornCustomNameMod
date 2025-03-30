@@ -1,0 +1,55 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="Lib.Harmony" Version="2.3.5">
+	  </PackageReference>
+	<Reference Include="Bindito.Core">
+		<HintPath>../../TimberbornLibraries/Bindito.Core.dll</HintPath>
+	</Reference>
+	  <Reference Include="Timberborn.Beavers">
+		  <HintPath>../../TimberbornLibraries/Timberborn.Beavers.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Timberborn.Bots">
+		  <HintPath>../../TimberbornLibraries/Timberborn.Bots.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Timberborn.Common">
+		  <HintPath>../../TimberbornLibraries/Timberborn.Common.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Timberborn.Localization">
+		  <HintPath>../../TimberbornLibraries/Timberborn.Localization.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Timberborn.Modding">
+		  <HintPath>../../TimberbornLibraries/Timberborn.Modding.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Timberborn.ModManagerScene">
+		  <HintPath>../../TimberbornLibraries/Timberborn.ModManagerScene.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Timberborn.Persistence">
+		  <HintPath>../../TimberbornLibraries/Timberborn.Persistence.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Timberborn.PlatformUtilities">
+		  <HintPath>../../TimberbornLibraries/Timberborn.PlatformUtilities.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Timberborn.SingletonSystem">
+		<HintPath>../../TimberbornLibraries/Timberborn.SingletonSystem.dll</HintPath>
+	</Reference>
+	  <Reference Include="UnityEngine.CoreModule">
+		  <HintPath>../../TimberbornLibraries/UnityEngine.CoreModule.dll</HintPath>
+	  </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="MultipleSaveModeSettings.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="manifest.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
