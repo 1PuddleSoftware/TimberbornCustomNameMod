@@ -32,6 +32,12 @@
 ## Multiple Save Settings
 This mod supports an optional mode to support multiple saves. This setting is off by default since it directly modifies your save data. Please read the below documentation before using this.
 
+### Settings File Location: "~/Steam/steamapps/workshop/content/1062090/3455093351"
+- Windows defaults the steam folder to "C:/Program Files (x86)"
+- Linux or custom installs may be in a different folder
+- 1062090: Timberborn's steam ID
+- 3455093351: This mod's steam workshop ID
+
 ### Setting Name: MultipleSaveMode
 **Purpose:** Use to have names tracked on a per save basis instead of per steam account basis.
 
