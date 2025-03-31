@@ -12,7 +12,7 @@
 1. Download the mod
 1. Create a text file called BeaverNames.txt
    -  Each line of the file will be a Beaver's name
-1. Put the text file in your player data folder.
+1. Put the text file in your Timberborn folder
    -  Typical file path: **\Documents\Timberborn\
 1. Open Timberborn
 1. Select the mod
@@ -22,12 +22,14 @@
 1. Download the mod
 1. Create a text file called BotNames.txt
    -  Each line of the file will be a Bot's name
-1. Put the text file in your player data folder.
-   -  Typical file path: **\Documents\Timberborn\
+1. Put the text file in your Timberborn folder
+   -  Typical file path: ~\Documents\Timberborn\
 1. Open Timberborn
 1. Select the mod
 1. Create a new game or load an existing save
 
+### Screenshot Example
+![ScreenshotOfTextFilePaths](/FileLocationScreenshot.png)
 
 ## Multiple Save Settings
 This mod supports an optional mode to support multiple saves. This setting is off by default since it directly modifies your save data. Please read the below documentation before using this.
